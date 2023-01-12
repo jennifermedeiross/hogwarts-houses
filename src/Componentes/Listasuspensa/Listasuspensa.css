@@ -1,0 +1,17 @@
+.Listasuspensa select {
+    background-color: #FFF;
+    width: 100%;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.Listasuspensa label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4D291E;
+}

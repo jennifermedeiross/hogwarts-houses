@@ -1,0 +1,21 @@
+.Campotexto {
+    margin: 70px 0;
+}
+
+.Campotexto input {
+    background-color: #FFF;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.Campotexto label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4D291E;
+}

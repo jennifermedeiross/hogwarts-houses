@@ -1,0 +1,19 @@
+.Casas {
+    color: #4D291E;
+    text-align: center;
+    padding: 32px;
+}
+
+.Casas h3 {
+    font-size: 32px;
+    border-bottom: 4px solid #4D291E;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.Casas .aluno {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
