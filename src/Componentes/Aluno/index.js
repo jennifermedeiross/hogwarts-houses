@@ -1,15 +1,15 @@
 import './Aluno.css'
 
-const Aluno = (props) => {
+const Aluno = ({nome, imagem, corCabecalho}) => {
     return (
         <div className='Aluno'>
-            <div className='cabecalho' style={{backgroundColor: props.cor}}>
-                <img src={props.imagem} alt={props.nome} />
+            <div className='cabecalho' style={{backgroundColor: corCabecalho}}>
+                <img src={imagem} alt={nome} />
             </div>
 
             <div className='rodape'>
                 <h4>
-                    {props.nome}
+                    {nome}
                 </h4>
             </div>
         </div>
