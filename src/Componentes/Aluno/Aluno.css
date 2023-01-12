@@ -1,4 +1,5 @@
 .Aluno {
+    position: relative;
     width: 280px;
 }
 
@@ -28,4 +29,15 @@
     line-height: 22px;
     font-weight: bold;
     margin-bottom: 8px;
+}
+
+.deletar {
+    cursor: pointer;
+    position: absolute;
+    right: -18px;
+    top: -14px;
+}
+
+.deletar:hover {
+    color: #754d42;
 }

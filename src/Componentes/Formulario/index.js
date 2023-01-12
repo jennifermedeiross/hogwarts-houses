@@ -31,7 +31,7 @@ const Formulario = ({casas, aoAlunoCadastrado}) => {
                 />
                 <CampoTexto 
                     label='Imagem' 
-                    placeholder='Informe o endereço da imagem'
+                    placeholder='Informe a url da imagem'
                     valor={imagem}
                     aoAlterado={valor => setImagem(valor)}
                 />
