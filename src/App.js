@@ -9,19 +9,23 @@ function App() {
   const casas = [
     {
       nome: 'Grifinória',
-      fundo: 'https://i.ibb.co/289JPR5/fundo-grifinoria.jpg'
+      fundo: 'https://i.ibb.co/289JPR5/fundo-grifinoria.jpg',
+      corCabecalho: '#6D0000'
     },
     {
       nome: 'Sonserina',
-      fundo: 'https://i.ibb.co/1Rx0yhw/fundo-sonserina.jpg'
+      fundo: 'https://i.ibb.co/1Rx0yhw/fundo-sonserina.jpg',
+      corCabecalho: '#008037'
     },
     {
       nome: 'Lufa-lufa',
-      fundo: 'https://i.ibb.co/4gL7qh1/fundo-lufalufa.jpg'
+      fundo: 'https://i.ibb.co/4gL7qh1/fundo-lufalufa.jpg',
+      corCabecalho: '#FFBD59'
     },
     {
       nome: 'Corvinal',
-      fundo: 'https://i.ibb.co/82VNC1M/fundo-corvinal.jpg'
+      fundo: 'https://i.ibb.co/82VNC1M/fundo-corvinal.jpg',
+      corCabecalho: '#004AAD'
     }]
 
   const aoAlunoCadastrado = (aluno) => {
@@ -35,7 +39,7 @@ function App() {
         key={casas.nome} 
         nome={casas.nome} 
         fundo={casas.fundo} 
-        cor={casas.cor}
+        corCabecalho={casas.corCabecalho}
         alunos={alunos.filter(aluno => aluno.casa === casas.nome)}/>)}
     </div>
   );

@@ -4,11 +4,11 @@ import Botao from '../Botao'
 import './Formulario.css'
 import { useState } from 'react'
 
-const Formulario = (props) => {
+const Formulario = ({casas, aoAlunoCadastrado}) => {
     
     const aoSubmeter = (evento) => {
         evento.preventDefault()
-        props.aoAlunoCadastrado ({nome, imagem, casa})
+        aoAlunoCadastrado ({nome, imagem, casa})
         setNome('')
         setImagem('')
         setCasa('')
@@ -38,7 +38,7 @@ const Formulario = (props) => {
                 <Listasuspensa 
                     obrigatorio={true}
                     label="Casa" 
-                    itens={props.casas}
+                    itens={casas}
                     valor={casa}
                     aoAlterado={valor => setCasa(valor)}
                 />
