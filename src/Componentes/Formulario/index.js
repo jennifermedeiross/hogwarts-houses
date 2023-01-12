@@ -9,6 +9,9 @@ const Formulario = (props) => {
     const aoSubmeter = (evento) => {
         evento.preventDefault()
         props.aoAlunoCadastrado ({nome, imagem, casa})
+        setNome('')
+        setImagem('')
+        setCasa('')
     }
 
     const [nome, setNome] = useState('')
